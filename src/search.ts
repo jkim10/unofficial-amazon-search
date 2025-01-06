@@ -90,7 +90,7 @@ async function searchAmazon(
 ): Promise<SearchData> {
 
   const currentPage = config?.page ?? 1;
-  const priceRange = config?.priceRange;
+
   const searchData: SearchData = {
     searchResults: [],
     pageNumber: currentPage,
